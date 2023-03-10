@@ -9,14 +9,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common twrp stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from bahamut device
 $(call inherit-product, device/sony/bahamut/device.mk)
 
 PRODUCT_DEVICE := bahamut
-PRODUCT_NAME := omni_bahamut
+PRODUCT_NAME := twrp_bahamut
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := Bahamut
 PRODUCT_MANUFACTURER := sony
