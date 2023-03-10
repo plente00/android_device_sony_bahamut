@@ -5,6 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo omni_bahamut-user
-add_lunch_combo omni_bahamut-userdebug
-add_lunch_combo omni_bahamut-eng
+add_lunch_combo twrp_bahamut-user
+add_lunch_combo twrp_bahamut-userdebug
+add_lunch_combo twrp_bahamut-eng
